@@ -18,7 +18,7 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "popper.js": "^1.12",
-        "postcss": "^8.1.14",
+        "postcss": "^8.2.5",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
         "resolve-url-loader": "^3.1.2",
@@ -29,6 +29,11 @@
         "@babel/plugin-syntax-dynamic-import": "^7.8.3",
         "@babel/preset-react": "^7.12.13",
         "@inertiajs/inertia": "^0.8.4",
-        "@inertiajs/inertia-react": "^0.5.3"
+        "@inertiajs/inertia-react": "^0.5.3",
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/icons": "^4.11.2",
+        "@tailwindcss/postcss7-compat": "^2.0.3",
+        "autoprefixer": "^9.8.6",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
     }
 }

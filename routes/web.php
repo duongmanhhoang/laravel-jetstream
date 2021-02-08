@@ -20,4 +20,4 @@ Route::get('/', function () {
 
 Route::get('test', [TestController::class, 'index']);
 
-// Route::inertia('/test', 'TestComponent');
+Route::inertia('/test2', 'Test2Component');

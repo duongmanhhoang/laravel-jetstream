@@ -1,0 +1,33 @@
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_Pages_Test2Component_js"],{
+
+/***/ "./resources/js/Pages/Test2Component.js":
+/*!**********************************************!*\
+  !*** ./resources/js/Pages/Test2Component.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var Test2Component = function Test2Component(props) {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
+      children: "Hello World22222222222222222222222"
+    })
+  });
+};
+
+Test2Component.layout = null;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Test2Component);
+
+/***/ })
+
+}]);
