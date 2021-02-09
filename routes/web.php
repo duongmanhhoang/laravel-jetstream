@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\Admin\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::inertia('/', 'dashboard/Dashboard');
+
+Route::group([
+        'prefix' => 'users',
+        'as' => 'users.'
+    ],
+    function () {
+        // Route::get('/', [UserController::class, 'index'])->name('list');
+        Route::get('/create', [UserController::class, 'create'])->name('create');
 });
-
-Route::get('test', [TestController::class, 'index']);
-
-Route::inertia('/test2', 'Test2Component');

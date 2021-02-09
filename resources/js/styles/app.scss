@@ -1,0 +1,49 @@
+html,
+body,
+#app {
+    height: 100% !important;
+}
+
+.sidebar {
+    &__list {
+        &--item {
+            margin-left: 8px;
+        }
+    }
+}
+
+.content-card {
+    background: white;
+    border-radius: 0.42rem;
+    border: 1px solid #ebedf3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    padding-top: 20px;
+
+    &__header {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+        min-height: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: transparent;
+        font-size: 22px;
+        font-weight: bolder;
+        border-bottom: 1px solid #ebedf3;
+    }
+
+    &__main {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+        min-height: 70px;
+    }
+}

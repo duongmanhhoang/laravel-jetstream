@@ -26,6 +26,7 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      metronic: '#1e1e2d',
     },
     spacing: {
       px: '1px',
@@ -71,7 +72,14 @@ module.exports = {
       pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       bounce: 'bounce 1s infinite',
     },
-    backgroundColor: (theme) => theme('colors'),
+    backgroundColor: theme => ({
+      'primary': '#1e1e2d',
+      'secondary': '#ffed4a',
+      'danger': '#e3342f',
+      'metronic': '#1e1e2d',
+      'metronic-sidebar-title': '#1a1a27',
+      'metronic-content': '#eef0f8',
+     }),
     backgroundImage: {
       none: 'none',
       'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
@@ -604,7 +612,10 @@ module.exports = {
       1: '1',
       2: '2',
     },
-    textColor: (theme) => theme('colors'),
+    textColor: {
+     'metronic-white': '#a2a3b7',
+     'metronic-content': '#6c7293',
+    },
     textOpacity: (theme) => theme('opacity'),
     transformOrigin: {
       center: 'center',
